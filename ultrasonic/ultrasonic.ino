@@ -7,8 +7,7 @@ void setup() {
 
 void loop()
 {
-  long duration, inches, cm;
-  int inches=2.5,cm=100;
+  long duration, inches = 2.5, cm = 100;
   pinMode(trigPin, OUTPUT);
   digitalWrite(trigPin, LOW);
   delayMicroseconds(2);
